@@ -44,4 +44,8 @@ parArrayMaker(gen2, ["Prince Philip", "Queen Elizabeth II"], par2)
 // Third generation array is created with six Person objects.
 genArrayMaker(royalFamily[2], gen3)
 
-console.log(gen3[1].childOf())
+const familyTreeObj = [gen1, gen2, gen3]
+
+console.log(typeof familyTreeObj[2][0].childOf())
+
+module.exports = { Person, genArrayMaker, parArrayMaker }

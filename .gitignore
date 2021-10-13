@@ -77,3 +77,5 @@ typings/
 .DS_Store
 package.json
 .gitattributes
+hello.txt
+package-lock.json
