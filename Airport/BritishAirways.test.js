@@ -1,6 +1,9 @@
 // Import classes for jest testing
 const Bag = require("./Bags")
 const Passenger = require("./Passenger")
+const CrewMember = require("./CrewMember")
+const Plane = require("./Plane")
+const Airport = require("./Airport")
 // Bag class testing block
 describe("Bag class", () => {
     // Create new instance of Bag class for testing purposes

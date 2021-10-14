@@ -13,7 +13,5 @@ class Passenger {
         this.bags.push(bag)
     }
 }
-
-console.log(typeof new Passenger("John Doe", 1234, 43).bags)
 // Export Passenger() class
 module.exports = Passenger
