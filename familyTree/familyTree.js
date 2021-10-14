@@ -46,6 +46,6 @@ genArrayMaker(royalFamily[2], gen3)
 
 const familyTreeObj = [gen1, gen2, gen3]
 
-console.log(typeof familyTreeObj[2][0].childOf())
+console.log(familyTreeObj[2][1].name)
 
 module.exports = { Person, genArrayMaker, parArrayMaker }
