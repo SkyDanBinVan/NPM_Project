@@ -20,23 +20,29 @@ describe("Bag class", () => {
         expect(bag.isOverLimit()).toBe(false)
     })
 })
-
+// Passenger class testing block
 describe("Passenger class", () => {
+    // Create new instance of Passenger class for testing purposes
     beforeAll( () => {
-        pass1 = new Passenger("John Doe", 1234, 43)
+        pass = new Passenger("John Doe", 1234, 43)
     })
+    // Test that correct seat number is returnd from Passenger() instance
     test("Should give passenger's seat number", () => {
-        expect(pass1.seatNumber).toBe(43)
+        expect(pass.seatNumber).toBe(43)
+    })
+    // Test if array is returned from .bags attribute
+    test("Should return array of Bags", () => {
+        expect(typeof pass.bags).toBe("object")
     })
 })
-
+// Testing Bag() method innside Passenger() instance
 describe("Passenger int. with Bag class", () => {
+    // Add bag to pass obj
     beforeAll( () => {
-        pass2 = new Passenger("John Doe", 1234, 43)
-        pass2.addBag(new Bag(8))
+        pass.addBag(bag)
     })
-    
+    // Check that Bag() has been appended to Passenger().bags attribute
     test("Should give weight of passenger's first bag", () => {
-        expect(pass2.bags[0].weight).toBe(8)
+        expect(pass.bags[0].weight).toBe(8)
     })
 })

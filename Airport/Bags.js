@@ -11,14 +11,15 @@ class Bag {
             this.weight = weight
         }
     }
+    // Create method to return Bool whether ot not bag is overweight (true if instanceof, else false)
     isOverLimit() {
+        // Set bag weight limit to 40kg
         if (this.weight <= 40) {
             return false
         } else {
             return true
         }
     }
-
 }
 // Export class for testing
 module.exports = Bag
