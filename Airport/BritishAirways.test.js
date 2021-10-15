@@ -38,7 +38,7 @@ describe("Passenger class", () => {
         expect(typeof pass.bags).toBe("object")
     })
 })
-// Testing Bag() method innside Passenger() instance
+// Testing Bag() method inside Passenger() instance
 describe("Passenger int. with Bag class", () => {
     // Add bag to pass obj
     beforeAll( () => {
@@ -47,5 +47,25 @@ describe("Passenger int. with Bag class", () => {
     // Check that Bag() has been appended to Passenger().bags attribute
     test("Should give weight of passenger's first bag", () => {
         expect(pass.bags[0].weight).toBe(8)
+    })
+})
+// Testing CrewMember class
+describe("Crewmember class", () => {
+    // Create instance of CrewMember()
+    beforeAll( () => {
+        crew = new CrewMember("Captain Orlando", "Captain", 435)
+    })
+    // Test checking if staff number input is a number
+    test("Should throw Error if staff number NaN", () => {
+        expect(() => new CrewMember("Jim Faulkner", "Stuard", "fivehundred and four")).toThrowError("Staff number NaN")
+    })
+})
+
+describe("Plane class", () => {
+    beforeAll( () => {
+        plane = new Plane("747")
+    })
+    test("Should return number of staff to passengers on plane", () => {
+        expect(plane.capacity()).toBe()
     })
 })
