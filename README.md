@@ -1,1 +1,1 @@
-![usecase-1](https//www.plantuml.com/plantuml/png/SoWkIImgAStDuR8ABKujibBGrRLJq00oDRcKV1CpynGSKt8pyvGK4eiXB2ube9n2IKQgGc91GKvcSc99PZv46g89h0XY28I9fbIJoo4rBmLa7m00 "usecase-1")
+![Use Case](https://www.plantuml.com/plantuml/png/LOzBQiGm40NtEiLREWld05u4to4dQEIEBVIHQBKWPfYxZupnV9P55O_kkIg9jXXCu3-5PeXRDyNYXAswd4prBXKIYYXaFQtygtjW7DgGrIomhMgEB1S65cyEJsdjfTtO-jmKDuDdYt74S9alWpV0zm-6Gdlar662IpQqXOzcur1E_wedyBzoMkhdIDy_3xcRkTl-uGC0 "Use Case")
