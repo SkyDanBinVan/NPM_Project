@@ -48,4 +48,4 @@ const familyTreeObj = [gen1, gen2, gen3]
 
 console.log(familyTreeObj[2][1].name)
 
-module.exports = { Person, genArrayMaker, parArrayMaker }
+module.exports =  Person, genArrayMaker, parArrayMaker 
